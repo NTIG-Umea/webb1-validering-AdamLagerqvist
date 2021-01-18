@@ -1,38 +1,45 @@
-body {
-  background-image: Url(img/IMG_20200727_113945.jpg);
-  background-size: cover;
-  background-color: #666666;
-  font-size: 1rem;
-  font-family: 'Montserrat, sans-serif';
-  font-weight: 400;
-}
+  aside {
+    float: right;
+  }
+  body {
+    background-image: url('../img/Bakgrund.jpg');
+    background-size: cover;
+    font-size: 1rem;
+    font-family: 'Montserrat, sans-serif';
+    font-weight: 400;
+  }
 
-main, header, footer {
-  width: 80%;
-  margin: 0 auto;
-  padding: 1rem;
-  background-color: rgba(66, 66, 66, 0.4);
-  color: #efefef;
-}
+  main, header, footer {
+    width: 65%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgba(66, 66, 66, 1.0);
+    color: #efefef;
+  }
 
-footer {
-  padding-top: 3rem;
-}
+  footer {
+    padding-top: 3rem;
+  }
 
-p {
-  font-family: 'Montserrat', sans-serif;
-}
+  a {
+   color: deepskyblue; 
+  }
 
-h1 {
-  font-size: 3rem;
-}
+  p {
+    font-family: 'Montserrat', sans-serif;
+  }
 
-.h2 {
-  border-bottom: 2px solid #efefef;
-} 
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
 
-h3 {
-  color: #efefef;
-  background-color: #666666;
-  margin-bottom: 0.2rem;
-}
+  .h2 {
+    border-bottom: 2px solid #efefef;
+  } 
+
+  h3 {
+    color: #efefef;
+    background-color: #666666;
+    margin-bottom: 0.2rem;
+  }
